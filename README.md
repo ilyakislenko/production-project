@@ -6,5 +6,3 @@ IMPORTANT: the repository shows progress from 09/12/2022 (development start date
 * Webpack
 * React
 * Typescript
-
-
