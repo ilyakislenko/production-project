@@ -4,13 +4,44 @@
     background: var(--inverted-bg-color);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
 .links {
+    display: flex;
     margin-left: auto;
+    align-items:center;
 }
 
 .mainLink {
     margin-right: 15px;
 }
+.search{
+    display: flex;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    height: var(--navbar-height);
+    margin-right: 15px;
+    align-items:center;
+}
+.search svg{
+height: 25px;
+width: 25px;
+}
+.notification{
+    display: flex;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+    height: var(--navbar-height);
+    margin-right: 15px;
+    align-items:center;
+}
+.notification svg{
+    height: 20px;
+    width: 20px;
+    }
