@@ -1,7 +1,7 @@
 import { Theme, useTheme } from 'app/providers/ThemeProvider';
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { AppLink, AppLinktheme } from 'shared/ui/AppLink/AppLink';
+import { AppLink, AppLinkTheme } from 'shared/ui/AppLink/AppLink';
 import { Button, ThemeButton } from 'shared/ui/Button/Button';
 import DarkIcon from 'shared/assets/icons/search-svg-dark.svg';
 import LightIcon from 'shared/assets/icons/search-svg-light.svg';
@@ -13,7 +13,7 @@ interface NavbarProps {
     className?: string
 }
 
-export const NavBar = ({ className }: NavbarProps) => {
+export const Navbar = ({ className }: NavbarProps) => {
     const { theme, toggleTheme } = useTheme();
     const { t } = useTranslation();
     return (
@@ -29,8 +29,8 @@ export const NavBar = ({ className }: NavbarProps) => {
                         theme === Theme.DARK ? <NotificationLight /> : <NotificationDark />
                     }
                 </Button>
-                <AppLink theme={AppLinktheme.SECONDARY} to="/" className={cls.mainLink}>{t('Главная')}</AppLink>
-                <AppLink theme={AppLinktheme.SECONDARY} to="/about">{t('О сайте')}</AppLink>
+                <AppLink theme={AppLinkTheme.SECONDARY} to="/" className={cls.mainLink}>{t('Главная')}</AppLink>
+                <AppLink theme={AppLinkTheme.SECONDARY} to="/about">{t('О сайте')}</AppLink>
             </div>
         </div>
     );

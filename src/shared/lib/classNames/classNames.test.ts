@@ -1,40 +1,40 @@
-import { text } from 'stream/consumers';
-import { classNames } from './classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 
 describe('classNames', () => {
-    test('Only first parameter', () => {
+    test('with only first param', () => {
         expect(classNames('someClass')).toBe('someClass');
     });
-    test('With additional class', () => {
-        const expected = 'someClass somethingNew1 somethingNew2';
-        expect(classNames('someClass', {}, ['somethingNew1', 'somethingNew2']))
+
+    test('with additional class', () => {
+        const expected = 'someClass class1 class2';
+        expect(classNames('someClass', {}, ['class1', 'class2']))
             .toBe(expected);
     });
-    test('With additional classes and mods', () => {
-        const expected = 'someClass somethingNew1 somethingNew2 hovered scrollable';
+
+    test('with mods', () => {
+        const expected = 'someClass class1 class2 hovered scrollable';
         expect(classNames(
             'someClass',
             { hovered: true, scrollable: true },
-            ['somethingNew1', 'somethingNew2'],
-        ))
-            .toBe(expected);
+            ['class1', 'class2'],
+        )).toBe(expected);
     });
-    test('With additional classes and one of mods false', () => {
-        const expected = 'someClass somethingNew1 somethingNew2 hovered';
+
+    test('with mods false', () => {
+        const expected = 'someClass class1 class2 hovered';
         expect(classNames(
             'someClass',
             { hovered: true, scrollable: false },
-            ['somethingNew1', 'somethingNew2'],
-        ))
-            .toBe(expected);
+            ['class1', 'class2'],
+        )).toBe(expected);
     });
-    test('With additional classes and one of mods undefined', () => {
-        const expected = 'someClass somethingNew1 somethingNew2 hovered';
+
+    test('with mods undefined', () => {
+        const expected = 'someClass class1 class2 hovered';
         expect(classNames(
             'someClass',
             { hovered: true, scrollable: undefined },
-            ['somethingNew1', 'somethingNew2'],
-        ))
-            .toBe(expected);
+            ['class1', 'class2'],
+        )).toBe(expected);
     });
 });

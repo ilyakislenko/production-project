@@ -11,13 +11,14 @@
 .links {
     display: flex;
     margin-left: auto;
-    align-items:center;
+    align-items: center;
 }
 
 .mainLink {
     margin-right: 15px;
 }
-.search{
+
+.search {
     display: flex;
     padding: 0;
     border: none;
@@ -25,13 +26,15 @@
     outline: none;
     height: var(--navbar-height);
     margin-right: 15px;
-    align-items:center;
+    align-items: center;
 }
-.search svg{
-height: 25px;
-width: 25px;
+
+.search svg {
+    height: 25px;
+    width: 25px;
 }
-.notification{
+
+.notification {
     display: flex;
     padding: 0;
     border: none;
@@ -39,9 +42,10 @@ width: 25px;
     outline: none;
     height: var(--navbar-height);
     margin-right: 15px;
-    align-items:center;
+    align-items: center;
 }
-.notification svg{
+
+.notification svg {
     height: 20px;
     width: 20px;
-    }
+}
