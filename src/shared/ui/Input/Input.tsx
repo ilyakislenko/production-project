@@ -49,7 +49,10 @@ export const Input = memo((props: InputProps) => {
     }, [autofocus]);
 
     return (
-        <div className={classNames(cls.InputWrapper, {}, [className])}>
+        <div
+            className={classNames(cls.InputWrapper, {}, [className])}
+            data-testid="input-test"
+        >
             {placeholder && (
                 <div className={cls.placeholder}>{`${placeholder}>`}</div>
             )}
