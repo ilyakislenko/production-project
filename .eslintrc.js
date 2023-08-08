@@ -33,12 +33,16 @@ module.exports = {
         'react/react-in-jsx-scope': 'off',
         'react/jsx-props-no-spreading': 'warn',
         'react/function-component-definition': 'off',
+        'react/self-closing-comp': 'off',
         'no-shadow': 'off',
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
         'object-curly-newline': 'off',
         'no-undef': 'off',
+        'comma-dangle': 'off',
+        'no-console': 'off',
+        'arrow-body-style': 'off',
         'i18next/no-literal-string': [
             'error',
             {
@@ -46,11 +50,11 @@ module.exports = {
                 ignoreAttribute: ['data-testid', 'to'],
             },
         ],
-        'max-len': ['error', { ignoreComments: true, code: 100 }],
+        'max-len': ['error', { ignoreComments: true, code: 120 }],
         'jsx-a11y/no-static-element-interactions': 'off',
         'jsx-a11y/click-events-have-key-events': 'off',
         'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-        'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies,
+        'react-hooks/exhaustive-deps': 'off', // Checks effect dependencies,
         'no-param-reassign': 'off',
     },
     globals: {

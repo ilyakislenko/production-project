@@ -19,16 +19,6 @@
       "id": 4,
       "title": "json-server4",
       "author": "typicode"
-    },
-    {
-      "username": "admin",
-      "password": "123",
-      "id": 5
-    },
-    {
-      "username": "admin",
-      "password": "123",
-      "id": 6
     }
   ],
   "comments": [
@@ -51,6 +41,13 @@
       "id": 4,
       "body": "some comment4",
       "postId": 1
+    }
+  ],
+  "users":[
+    {
+      "id":1,
+      "username":"admin",
+      "password":"123"
     }
   ],
   "profile": {
