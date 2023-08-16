@@ -51,6 +51,13 @@
     }
   ],
   "profile": {
-    "name": "typicode"
+    "first": "Илья",
+    "lastname": "Геймпаб",
+    "age": 22,
+    "currency": "RUB",
+    "country": "Russia",
+    "username": "ilusaaxd",
+    "city": "Tomsk",
+    "avatar": "https://static.wikia.nocookie.net/beluga/images/7/7b/Heckercat.jpg"
   }
 }
