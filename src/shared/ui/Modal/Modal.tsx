@@ -1,5 +1,6 @@
-import { classNames } from 'shared/lib/classNames/classNames';
+import { Mods, classNames } from 'shared/lib/classNames/classNames';
 import React, {
+    MutableRefObject,
     ReactNode,
     useCallback,
     useEffect,
@@ -11,21 +12,21 @@ import { useTheme } from 'app/providers/ThemeProvider';
 import cls from './Modal.module.scss';
 
 interface ModalProps {
-  className?: string;
-  children?: ReactNode;
-  isOpen?: boolean;
-  onClose?: () => void;
+    className?: string;
+    children?: ReactNode;
+    isOpen?: boolean;
+    onClose?: () => void;
 }
 
 const ANIMATION_DELAY = 300;
 
 export const Modal = (props: ModalProps) => {
-    const {
-        className, children, isOpen, onClose,
-    } = props;
+    const { className, children, isOpen, onClose } = props;
 
     const [isClosing, setIsClosing] = useState(false);
-    const timerRef = useRef<ReturnType<typeof setTimeout>>();
+    const timerRef = useRef() as MutableRefObject<
+        ReturnType<typeof setTimeout>
+    >;
     const { theme } = useTheme();
 
     const closeHandler = useCallback(() => {
@@ -45,7 +46,7 @@ export const Modal = (props: ModalProps) => {
                 closeHandler();
             }
         },
-        [closeHandler],
+        [closeHandler]
     );
 
     const onContentClick = (e: React.MouseEvent) => {
@@ -63,7 +64,7 @@ export const Modal = (props: ModalProps) => {
         };
     }, [isOpen, onKeyDown]);
 
-    const mods: Record<string, boolean> = {
+    const mods: Mods = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
     };
