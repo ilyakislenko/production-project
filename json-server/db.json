@@ -43,21 +43,21 @@
       "postId": "1"
     }
   ],
-  "users":[
+  "users": [
     {
-      "id":"1",
-      "username":"admin",
-      "password":"123"
+      "id": "1",
+      "username": "admin",
+      "password": "123"
     }
   ],
   "profile": {
     "first": "Илья",
     "lastname": "Геймпаб",
     "age": 22,
-    "currency": "RUB",
-    "country": "Russia",
+    "currency": "EUR",
+    "country": "Belarus",
     "username": "ilusaaxd",
     "city": "Tomsk",
-    "avatar": "https://static.wikia.nocookie.net/beluga/images/7/7b/Heckercat.jpg"
+    "avatar": "https://i0.wp.com/roomescapeartist.com/wp-content/uploads/2020/06/Parrot-Puzzles-Better-Than-You.jpg?w=800&ssl=1"
   }
 }
