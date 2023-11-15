@@ -3,14 +3,14 @@
   "Перевод": "Translate",
   "Главная страница": "Main page",
   "Язык": "English",
-  "новый перевод": "новый перевод",
+  "Новый перевод": "New translation",
   "Страница не найдена": "Page not found",
   "Произошла непредвиденная ошибка": "An unexpected error has occurred",
   "Обновить страницу": "Reload page",
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
-  "Переключить": "Переключить",
+  "Переключить": "Switch",
   "Короткий язык": "En",
   "Войти": "Login",
   "increment": "increment",
@@ -20,5 +20,7 @@
   "Форма авторизации": "Auth form",
   "Вы ввели неверный логин или пароль": "Uncorrect username or password",
   "Профиль":"Profile",
-  "Выйти": "Logout"
+  "Выйти": "Logout",
+  "Укажите валюту":"Select currency",
+  "Укажите страну":"Select country"
 }

@@ -1,7 +1,22 @@
 {
-    "Профиль": "Profile",
-    "Редактировать": "Edit",
-    "Ваша фамилия": "Your surname",
-    "Ваше имя": "Your name"
-  }
-  
+  "Профиль": "Profile",
+  "Редактировать": "Edit",
+  "Ваша фамилия": "Your surname",
+  "Ваше имя": "Your name",
+  "Данные не указаны": "Data is not specified",
+  "Имя и фамилия обязательны": "First and last name are required",
+  "Имя пользователя": "Username",
+  "Некорректная валюта": "Incorrect currency",
+  "Некорректный username": "Invalid username",
+  "Некорректный возраст": "Incorrect age",
+  "Некорректный город": "Incorrect city",
+  "Некорректный никнейм": "Incorrect nickname",
+  "Некорректный регион": "Invalid region",
+  "Серверная ошибка при сохранении": "Server error when saving",
+  "Отменить": "Cancel",
+  "Сохранить": "Save",
+  "Ваш возраст": "Your age",
+  "Ваш город": "Your city",
+  "Введите ссылку на аватар": "Enter the link to the avatar",
+  "Аватар": "Avatar"
+}
