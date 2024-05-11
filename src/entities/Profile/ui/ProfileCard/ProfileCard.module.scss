@@ -13,16 +13,19 @@
     justify-content: center;
     height: 300px;
 }
+
 .error {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 300px;
 }
+
 .avatarWrapper {
     display: flex;
     justify-content: center;
 }
-.editing{
+
+.editing {
     border: 2px solid var(--inverted-primary-color);
 }
