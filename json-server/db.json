@@ -13,13 +13,16 @@
   ],
   "articles": [
     {
-      "id":"1",
-      "title":"How to become the happiest person in the world?",
-      "subtitle":"Five secrets of happiness",
-      "img":"https://www.thesprucepets.com/thmb/S5JgRoUwPtYTKbUpWpE1Bgp00d8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Lovebirds-GettyImages-510427100-58d005853df78c3c4f3b36e3.jpg",
-      "views":15124,
-      "createdAt":"17.10.2024",
-      "type":["PSYCHOLOGY","PEOPLE"],
+      "id": "1",
+      "title": "How to become the happiest person in the world?",
+      "subtitle": "Five secrets of happiness",
+      "img": "https://www.thesprucepets.com/thmb/S5JgRoUwPtYTKbUpWpE1Bgp00d8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Lovebirds-GettyImages-510427100-58d005853df78c3c4f3b36e3.jpg",
+      "views": 15124,
+      "createdAt": "17.10.2024",
+      "type": [
+        "PSYCHOLOGY",
+        "PEOPLE"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -38,7 +41,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
