@@ -12,6 +12,7 @@ const data = {
     first: 'Ilya',
     lastname: 'gamepub',
     username: 'ilusaaxd',
+    id: '1'
 };
 describe('updateProfileData.test', () => {
     test('success', async () => {
