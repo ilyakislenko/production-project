@@ -131,13 +131,15 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/414766991/1200"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/414766991/1200"
     }
   ],
   "profile": {
